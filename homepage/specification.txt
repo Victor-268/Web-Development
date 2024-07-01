@@ -1,0 +1,33 @@
+HTML Tags:
+1. <nav>
+2. <ul>
+3. <li>
+4. <a>
+5. <object>
+6. <form>
+7. <label>
+8. <input>
+9. <textarea>
+10. <button>
+
+CSS Selectors and Properties:
+1. body: background-color, color, font-size, font-weight, line-height, margin
+2. .navbar: margin-bottom
+3. .header: background-color, color, padding
+4. .section: padding
+5. footer: margin-top
+6. .card: border-radius
+7. .card-body: padding
+8. .card-title: font-size, margin-bottom
+9. .card-text: font-size, margin-bottom
+10. .form-label: font-weight
+11. .form-control: margin-bottom
+12. .btn-primary: background-color, border-color
+13. .btn-primary:hover: background-color, border-color
+
+Bootstrap Features:
+- Integrated Bootstrap for responsive design and styling.
+- Used Bootstrap Navbar, Cards, and form controls.
+
+JavaScript Feature:
+- Added an alert on form submission in the contact page.
