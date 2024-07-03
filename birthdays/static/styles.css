@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+/* Container */
+.container {
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    width: 90%;
+}
+
+/* Header */
+.header {
+    background-color: #477bff;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+/* Sections */
+.section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.section:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+input[type="text"], input[type="number"], input[type="submit"] {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    width: 50%;
+}
+
+input[type="text"], input[type="number"] {
+    background-color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+input[type="text"]:hover, input[type="number"]:hover {
+    background-color: #e9ecef;
+}
+
+input[type="submit"] {
+    background-color: #477bff;
+    border-color: #477bff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #375be0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+table th,
+table td {
+    padding: 0.75rem;
+    text-align: left;
+    vertical-align: middle;
+}
+
+table th {
+    background-color: #477bff;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+table tbody tr:nth-of-type(odd) {
+    background-color: rgba(179, 208, 255, 0.3);
+}
+
+table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    input[type="text"], input[type="number"], input[type="submit"] {
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: 36px;
+    }
+}
